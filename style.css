@@ -1,0 +1,7 @@
+*{box-sizing:border-box}
+body{background-color:#01011f;color:#fff}
+.form-group textarea{background-color:#050517;color:#f5f5f5;font-weight:400}
+.form-group textarea:focus{background-color:#01011f;outline:0;color:#fff}
+.form-group select{background-color:#01011fc2;color:#fff}
+
+/* @mondalcodehub | NOV-2022 */
