@@ -17,7 +17,7 @@ https://user-images.githubusercontent.com/88100576/201605055-3e078a34-2c5c-4d55-
 - Bootstrap(5.2 latest)
 - JavaScript
 
-## Screenshots
+## Screenshot
 (01)
 
 ![Screenshot (2162)](https://user-images.githubusercontent.com/88100576/201603541-4c73dafd-981d-4d6b-acb0-112bdd9546af.png)
