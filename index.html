@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Text to Speech | @mondalcodehub</title>
+</head>
+
+<body>
+    <div class="container contx text-center">
+        <img src="Images/bg02.svg" alt="" class="m-5">
+        <h3> Text to Speech using 'webSpeech'</h3>
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <form>
+                    <div class="form-group">
+                        <textarea name="" id="text-input" class="form-control form-control-lg"
+                            placeholder="Enter your text here"></textarea>
+                    </div>
+                    <div class="form-group m-2">
+                        <label for="rate">Rate</label>
+                        <div id="rate-value" class="badge text-bg-primary float-end">1</div>
+                        <input type="range" id="rate" class="form-range" min="0.5" max="2" value="1" step="0.1">
+                    </div>
+                    <div class="form-group m-2">
+                        <label for="pitch">Pitch</label>
+                        <div id="pitch-value" class="badge text-bg-primary float-end">1</div>
+                        <input type="range" id="pitch" class="form-range" min="0" max="2" value="1" step="0.1">
+                    </div>
+                    <div class="form-group">
+                        <select id="voice-select" class="form-select form-select-lg ">
+                        </select>
+                    </div>
+                    <button class="btn btn-primary btn-lg m-5 btn-block" >CONVERT TEXT INTO SPEECH</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!-- bootstrap-js-cdn-link & custom script file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+<!-- @mondalcodehub | NOV-2022 -->
